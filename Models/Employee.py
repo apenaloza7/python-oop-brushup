@@ -1,4 +1,4 @@
-# Employee Modal
+# Employee Model
 #
 # Author: Alejandro Penaloza
 # Last Updated: May 16 2020
