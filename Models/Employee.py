@@ -57,6 +57,6 @@ class Employee:
     # returns false if the day falls on the weekend
     @staticmethod
     def is_workday(day):
-        if day.weekday() == 5 or if day.weekday() == 6:
+        if day.weekday() == 5 or day.weekday() == 6:
             return False
         return True
