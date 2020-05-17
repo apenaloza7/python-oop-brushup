@@ -15,3 +15,6 @@ class Employee:
 
     def fullName(self):
         return '{} {}'.format(self.firstName, self.lastName)
+
+    def completeInfo(self):
+        return '{} {} {} {} {}'.format(self.firstName, self.lastName, self.dept, self.salary, self.email)
