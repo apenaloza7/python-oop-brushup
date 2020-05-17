@@ -13,8 +13,10 @@ class Employee:
         self.salary = salary
         self.email = firstName + '.' + lastName + '@apenaloza.com'
 
+    # returns the full name of employee
     def fullName(self):
         return '{} {}'.format(self.firstName, self.lastName)
 
+    # returns all of the information about an employee
     def completeInfo(self):
         return '{} {} {} {} {}'.format(self.firstName, self.lastName, self.dept, self.salary, self.email)
