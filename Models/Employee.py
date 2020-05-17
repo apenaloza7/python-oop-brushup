@@ -1,9 +1,8 @@
-# Employee Class
+# Employee Method
 #
 # Author: Alejandro Penaloza
 # Last Updated: May 16 2020
 
-""" Employee Model """
 class Employee:
 
     # creates an instance of an Employee
