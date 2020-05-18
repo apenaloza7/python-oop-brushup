@@ -13,7 +13,6 @@ class Employee:
         self.lastName = lastName
         self.dept = dept
         self.salary = salary
-        self.email = firstName + '.' + lastName + '@apenaloza.com'
 
     # returns the full name of employee
     def fullName(self):
@@ -26,6 +25,11 @@ class Employee:
     # applies raise to given employee
     def apply_raise(self):
         self.pay = int(self.pay * self.annual_raise_amount)
+
+    # sets the email for the employee
+    @property
+    def email(self):
+        return '{}.{}@gmail.com'.format(self.firstName, self.lastName).lower()
 
 
     """ ----------------------- CLASS METHODS ----------------------- """
