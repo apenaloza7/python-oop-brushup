@@ -38,7 +38,7 @@ class Manager(Employee):
         employee_counter = 1
 
         for emp in self.employees:
-            print(str(employee_counter) + ' '  + emp.fullName() + '\n')
+            print(str(employee_counter) + ') '  + emp.fullName() + '\n')
             employee_counter += 1
 
         # resets the counter back to one after the for-loop is over
