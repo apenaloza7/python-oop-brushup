@@ -23,6 +23,10 @@ class Employee:
     def completeInfo(self):
         return '{} {} {} {} {}'.format(self.firstName, self.lastName, self.dept, self.salary, self.email)
 
+    # applies raise to given employee
+    def apply_raise(self):
+        self.pay = int(self.pay * self.annual_raise_amount)
+
 
     """ ----------------------- CLASS METHODS ----------------------- """
 
